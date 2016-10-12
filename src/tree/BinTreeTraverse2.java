@@ -61,9 +61,9 @@ public class BinTreeTraverse2 {
 		if (node == null) {
 			return;
 		}
-		preOrderTraverse(node.getLeftChild());
+		inOrderTraverse(node.getLeftChild());
 		System.out.print(node.getData() + "-");
-		preOrderTraverse(node.getRightChild());
+		inOrderTraverse(node.getRightChild());
 	}
 
 	/**
@@ -75,8 +75,8 @@ public class BinTreeTraverse2 {
 		if (node == null) {
 			return;
 		}
-		preOrderTraverse(node.getLeftChild());
-		preOrderTraverse(node.getRightChild());
+		postOrderTraverse(node.getLeftChild());
+		postOrderTraverse(node.getRightChild());
 		System.out.print(node.getData() + "-");
 	}
 
