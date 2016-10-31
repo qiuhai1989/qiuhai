@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>create table</title>
+<style type="text/css">
+*{
+        margin:0;
+    }
+    table{
+        margin:auto;
+        width:500px;
+        border:1px solid black;
+        border-collapse:collapse;
+    }
+    th,td{
+        border:1px solid black;
+    }
+</style>
+<script type="text/javascript">
+onload = function (){
+		var tab = document.createElement("table");
+		var tb = document.createElement("tbody");
+		tab.appendChild(tb);
+		for(var i=0;i<4;i++){
+			var tr = tb.insertRow(tb.rows.length);
+			for(var j=0;j<4;j++){
+				var td = tr.insertCell(tr.cells.length);
+				td.innerHTML =  "第" + (i + 1) + "行, 第" + (j + 1) + "列";
+			}
+			
+		}
+		document.body.appendChild(tab);
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>
