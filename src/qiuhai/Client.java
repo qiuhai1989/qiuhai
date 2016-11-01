@@ -1,16 +1,15 @@
 package qiuhai;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
-
 public class Client {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("----");
-		System.out.println("++++++++++");
-		Set set = new HashSet(new ArrayList<>());
+		System.out.println(Math.round(11.5));
+		System.out.println(Math.ceil(11.5));
+		System.out.println(Math.floor(11.5));
+		System.out.println(Math.round(11.4));
+		System.out.println(Math.ceil(11.4));
+		System.out.println(Math.floor(11.4));
 	}
 
 }

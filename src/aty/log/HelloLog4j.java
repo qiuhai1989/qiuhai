@@ -1,5 +1,6 @@
 package aty.log;
 
+
 import org.apache.log4j.Logger;
 
 import aty.log.service.A;
