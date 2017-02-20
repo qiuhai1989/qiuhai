@@ -9,7 +9,8 @@ public class A implements Cloneable {
 	    }  
 	 
 	 public A(){
-		System.out.println("A...");
+//		System.out.println("A...");
+		logger.info("A...");
 	 };
 	 
 	 public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, CloneNotSupportedException {
